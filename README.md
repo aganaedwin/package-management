@@ -10,7 +10,7 @@
 + Create Redhat EC2 T2.micro Instnace.
 + Create Security Group and open Tomcat ports or Required ports.
    + 8080 ..etc
-+ Attach Security Group to EC2 Instance.
++ Attach Security Group to EC2 Instance
 + Install java openJDK 1.8+
 
 ### Tomcat version 9.0.62 with Java JDK 1.8+ 
