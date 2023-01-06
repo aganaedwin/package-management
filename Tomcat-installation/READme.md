@@ -34,7 +34,7 @@ sudo rm -rf apache-tomcat-9.0.69.tar.gz
 sudo mv apache-tomcat-9.0.69 tomcat9
 ### assign executable permissions to the tomcat home directory
 sudo chmod 777 -R /opt/tomcat9
-sudo chown ec2-user -R /opt/tomcat9
+# sudo chown ec2-user -R /opt/tomcat9
 ### start tomcat
 sh /opt/tomcat9/bin/startup.sh
 # create a soft link to start and stop tomcat
