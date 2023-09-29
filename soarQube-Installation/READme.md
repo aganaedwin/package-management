@@ -19,7 +19,7 @@
 # create a new user called sonar and grant sudo access to manage sonar services as follows
 
 sudo useradd sonar
-# Grand sudo access to sonar user
+# Grant sudo access to sonar user
 sudo echo "sonar ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/sonar
 # set hostname for the sonarqube server
 sudo hostnamectl set-hostname sonar 
@@ -38,7 +38,7 @@ sudo service sshd restart
 
 ``` sh
 cd /opt
-sudo yum -y install unzip wget git
+sudo yum -y install vim tree unzip wget git
 sudo yum install  java-11-openjdk-devel
 ```
 ### 4. Download and extract the SonarqQube Server software.
